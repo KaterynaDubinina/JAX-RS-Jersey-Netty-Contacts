@@ -1,0 +1,42 @@
+GET - http://localhost:8081/api/v1/contacts
+
+POST - http://localhost:8081/api/v1/contacts
+
+{
+    "name": "Katya",
+    "phone": "555 01-579"
+}
+
+{
+    "name": "Maria",
+    "phone": "555 01-580"
+}
+
+{
+    "name": "Igor",
+    "phone": "555 01-581"
+}
+
+{
+    "name": "Sasha",
+    "phone": "555 01-583"
+}
+
+{
+    "name": "Ira",
+    "phone": "555 01-582"
+}
+
+
+GET - http://localhost:8081/api/v1/contacts/3
+
+PUT - http://localhost:8081/api/v1/contacts/3
+
+{
+    "name": "Mark",
+    "phone": "555 01-521"
+}
+
+DELETE - http://localhost:8081/api/v1/contacts/4
+
+

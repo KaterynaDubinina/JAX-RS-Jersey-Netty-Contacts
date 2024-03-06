@@ -1,0 +1,44 @@
+GET - http://localhost:8081/api/v1/products
+
+POST - http://localhost:8081/api/v1/products
+
+{
+    "productName": "potato",
+    "measure": "kg",
+    "quota": 7,
+    "price": 5.50
+}
+
+{
+    "productName": "beet",
+    "measure": "kg",
+    "quota": 2,
+    "price": 3.85
+}
+
+{
+    "productName": "carrot",
+    "measure": "kg",
+    "quota": 1,
+    "price": 7.99
+}
+
+{
+    "productName": "onion",
+    "measure": "kg",
+    "quota": 3,
+    "price": 15.75
+}
+
+GET - http://localhost:8081/api/v1/products/4
+
+PUT - http://localhost:8081/api/v1/products/4
+
+{
+    "productName": "cabbage",
+    "measure": "kg",
+    "quota": 12,
+    "price": 2.10
+}
+
+DELETE - http://localhost:8081/api/v1/products/3
